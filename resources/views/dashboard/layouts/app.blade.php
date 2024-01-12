@@ -5,11 +5,7 @@
     <div class="md:col-span-1">
         <div class="px-4 sm:px-0">
             <h1 class="text-3xl font-black text-center md:text-left">Welcome back, <span class="text-indigo-600">{{ auth()->user()->name }}</span></h1>
-            <p class="text-gray-600 font-medium my-5">{{ auth()->user()->username }}</p>
 
-            <button type="submit" class="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-600">
-                Edit Profile
-            </button>
         </div>
     </div>
     <div class="mt-5 md:mt-0 md:col-span-3">
