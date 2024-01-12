@@ -1,5 +1,8 @@
 # Catalog Photograpy Laravel
 
+### Dependencie Database
+1. Bikin Database bernama blog / sesuaikan dengan .env.example
+
 ### Start
 1. git clone https://github.com/rizqy22ti/catalog-photograpy-laravel.git
 2. cd catalog-photograpy-laravel
@@ -11,4 +14,3 @@
 8. php artisan storage:link
 9. php artisan serve
 10. npm run watch
-
